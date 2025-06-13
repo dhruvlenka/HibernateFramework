@@ -17,7 +17,7 @@ public class DeleteLaptopController {
         em.getTransaction().begin();
 
         //Step 4: Finding the laptop by ID
-        int id = 123456;
+        int id = 123456;;;
         Laptop laptop = em.find(Laptop.class, id);
 
         //Step 5: Removing the laptop if it exists
